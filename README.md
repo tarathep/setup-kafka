@@ -3,13 +3,13 @@ Introduction how and step to setting up kafka stack with docker
 
 ## Agenda
 
-1.Overview Kafka Basic
-2.What is Docker
-3.Setup Kafka
-4.Try to use & Demo Apps
+1. Overview Kafka Basic
+2. What is Docker
+3. Setup Kafka
+4. Try to use & Demo Apps
 5. Q/A
 
-## Overview Kafka
+## 1. Overview Kafka
 
 *Overview: Producer, Consumer Broker Cluser, Group Consumer,*
 
@@ -19,14 +19,14 @@ Introduction how and step to setting up kafka stack with docker
 
 <img src="/images/figure.JPG" width="400px">
 
-## What is Docker
+## 2. What is Docker
 
 *Overview Docker Engine*
 
 <img src="/images/docker.JPG" width="80%">
 
 
-## 3.Setup Kafka
+## 3. Setup Kafka
 
 *Arch*
 <img src="/images/arch.JPG" width="100%">
@@ -67,9 +67,9 @@ sudo docker run -it --rm -p 9000:9000 -e KAFKA_BROKERCONNECT=192.168.88.201:9092
 ```
 
 
-## Try to use & Demo Apps
+## 4. Try to use & Demo Apps
 
 - with producer.js
 - with consumer.js
 
-## Q/A
+## 5. Q/A
