@@ -1,0 +1,16 @@
+1. FIREWALL
+systemctl status firewalld
+systemctl disable firewalld
+systemctl enable firewalld
+
+or permit port
+
+2. IPV4 FORWARD docker network
+/etc/sysctl.conf
+edit:> net.ipv4.ip_forward=1
+
+> systemctl restart network
+check 
+> sysctl net.ipv4.ip_forward
+
+restart docker > systemctl restart docker
