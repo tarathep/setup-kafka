@@ -11,14 +11,6 @@ services:
       - 'KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://10.138.39.128:9092'
     volumes:
       - '/home/soa/kafka/kafka-persistence:/bitnami/kafka'
-  kafdrop:
-    image: 'obsidiandynamics/kafdrop:1.27.0'
-    ports:
-        - '9000:9000'
-    environment:
-        - KAFKA_BROKERCONNECT=10.138.39.126:9092
-        - JVM_OPTS="-Xms32M -Xmx64M"
-        - SERVER_SERVLET_CONTEXTPATH="/"
 networks:
   outside:
     external: true

@@ -1,7 +1,7 @@
 const kafka = require("kafka-node")
 
 
-const client = new kafka.KafkaClient({ kafkaHost: "10.138.39.126:9092" });
+const client = new kafka.KafkaClient({ kafkaHost: "10.138.39.126:9092,10.138.39.127:9092,10.138.39.128:9092" });
 
 const Producer = kafka.Producer
 const producer = new Producer(client);
